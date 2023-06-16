@@ -1,0 +1,168 @@
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    color:hsl(60, 8%, 30%);
+}
+
+.container {
+    width: 60%;
+    min-height: 50vh;
+    margin: auto;
+    padding: 30px 30px 0 30px;
+    border-radius: 15px;
+    background-color: hsl(60, 11%, 95%);
+    box-shadow: hsl(60, 7%, 41%) 4px 4px 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    font-size: 1.5em;
+    color: hsl(356, 64%, 35%);
+    border-bottom: 1px solid hsl(356, 64%, 35%);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    margin-right: 20px;
+    color: hsl(93, 5%, 64%);
+}
+
+nav ul li a:hover {
+    color: hsl(356, 64%, 35%);
+}
+
+.content {
+    display: flex;
+}
+
+.content-right {
+    width: 50%;
+}
+
+.content-right img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.content-left {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100%;
+    justify-content: space-around;
+}
+
+.info-1, .info-2, .info-3 {
+    border: 1px solid hsl(356, 64%, 35%);
+    padding: 10px;
+    text-align: center;
+    font-size: .8em;
+    border-radius: 0 10px;
+    margin-top: 15px;
+}
+
+.social-media ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social-media ul li a {
+    color: hsl(356, 64%, 35%);
+}
+
+.fa {
+margin-right: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.reg_form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.reg_form input, textarea {
+    padding: 5px;
+    margin-bottom: 8px;
+    width: 95%;
+}
+
+.subs {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+}
+
+fieldset > div:last-child {
+    text-align: center;
+}
+
+button {
+    background-color: hsl(93, 5%, 64%);
+    color: hsl(60, 11%, 95%);
+    padding: 8px 15px;
+    border: 0;
+}
+
+button:hover {
+    background-color: hsl(356, 64%, 35%);
+    cursor: pointer;
+}
+
+.service_list ul li {
+    list-style-type: square;
+    margin-bottom: 15px;
+}
+
+.service_list ul li a {
+    color: hsl(356, 64%, 35%);;
+}
+
+.project_gal {
+    border-top: 1px solid hsl(356, 64%, 35%);
+    border-bottom: 1px solid hsl(356, 64%, 35%);
+    padding: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+.img_holder {
+    margin: 10px auto;
+    height: auto;
+    width: 150px;
+}
+
+.project_gal img {
+    max-width: 100%;
+}
